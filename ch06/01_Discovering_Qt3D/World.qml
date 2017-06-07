@@ -9,7 +9,7 @@ Entity {
     RenderSettings{
         id: frameGraph
         activeFrameGraph: ForwardRenderer {
-            clearColor: Qt.rgba(0, 0, 0, 1)
+            clearColor: Qt.rgba(0, 1, 0, 1)
         }
     }
 
