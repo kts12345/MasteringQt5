@@ -1,6 +1,6 @@
 TEMPLATE = app
 
-QT += qml quick
+QT += qml quick 3dcore 3drender 3dquick 3dinput 3dextras
 CONFIG += c++11
 
 SOURCES += main.cpp
