@@ -30,6 +30,6 @@ HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
 
-CONFIG += mobility
+CONFIG += mobility c++14
 MOBILITY = 
 
