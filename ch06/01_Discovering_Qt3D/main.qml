@@ -1,12 +1,8 @@
 import QtQuick 2.6
-//import QtQuick.Window 2.2
 import QtQuick.Scene3D 2.0
 import QtQuick.Controls 1.4
 import QtQuick.Scene3D 2.0
 
-/*
-Window {
-*/
 Item {
     id: mainView
     visible: true
@@ -17,7 +13,7 @@ Item {
 
     Scene3D {
         id: scene
-        anchors.fill: parent
+        anchors.fill: parent // scene 이 부모 영역을 모조리 채우라는 뜻이다.
         focus: true
         World{}
     }

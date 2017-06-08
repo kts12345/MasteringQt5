@@ -6,6 +6,7 @@ import Qt3D.Extras 2.0
 Entity {
 
     property alias position: transform.translation
+
     PhongMaterial {
         id: material
         diffuse: "red"

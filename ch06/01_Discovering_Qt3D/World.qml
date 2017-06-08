@@ -15,7 +15,7 @@ Entity {
 
     Apple {
         id: apple
-        position: Qt.vector3d(3.0, 0.0, 2.0)
+        position: Qt.vector3d(0.0, 0.0, 0.0)
     }
 
     components: [frameGraph]
